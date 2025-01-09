@@ -88,7 +88,7 @@ main{
     align-items: center;
 }
 .hero{
-    height: 85vh;
+    height: 84.5vh;
     background-image: url("../../assets/home/congregation.jpeg");
     display: flex;
     align-items: center;
@@ -235,6 +235,7 @@ h5{
 .foreword{
     color: #fff;
     width: 95%;
-    font-weight: 700;
     padding-bottom: 10px;
+    margin: auto;
+    font-size: 14px;
 }
