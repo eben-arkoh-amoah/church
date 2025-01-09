@@ -162,6 +162,7 @@ height: 550px;
 h3{
     color: #fff;
     font-size: 18px;
+    line-height: 25px;
 }
 .timing{
     display: flex;
