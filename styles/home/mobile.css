@@ -223,3 +223,18 @@ h5{
     width: 50%;
     height: 87px;
 }
+.contact{
+    color: #fff;
+    gap: 5px;
+}
+.contact>p:first-child{
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.foreword{
+    color: #fff;
+    width: 95%;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
