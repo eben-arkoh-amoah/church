@@ -126,7 +126,7 @@ main{
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
-    animation: fadeIn 2s ease-in-out forwards;
+    animation: fadeIn 3s ease-in-out forwards;
 }
 
 .hidden {
