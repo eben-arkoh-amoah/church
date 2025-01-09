@@ -141,7 +141,6 @@ h2{
 }
 .main_section{
     background: linear-gradient(#AEC9DC, #5D6C76);
-    height: 550px;
         width: 100%
 }
 .main_container{
@@ -149,7 +148,6 @@ h2{
 }
 .opaque{
 background-color: rgba(174, 201, 220, 0.5);
-height: 550px;
     width: 100%;
     padding-top: 20px;
 }
@@ -201,4 +199,27 @@ h3{
  width: 95%;
  height: 250px;
  cursor: pointer;
+}
+.community{
+    display: flex;
+    padding-top: 35px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+h5{
+    color: #fff;
+    font-size: 16px;
+    width: 80%;
+    font-weight: 500;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.gallery>img{
+    width: 50%;
+    height: 87px;
 }
