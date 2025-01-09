@@ -146,9 +146,11 @@ h2{
 }
 .main_container{
     background-image: url("../../assets/home/church2.jpeg");
-    height: 550px;
+}
+.opaque{
+background-color: rgba(174, 201, 220, 0.5);
+height: 550px;
     width: 100%;
-    opacity: 0.6;
     padding-top: 20px;
 }
 .worship{
@@ -161,6 +163,23 @@ h3{
     color: #fff;
     font-size: 18px;
 }
+.timing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    width: 90%;
+    gap: 10px;
+    margin: auto;
+}
 .clock{
     width: 10%;
+}
+.time{
+    color:#090A0B;
+    font-size: 13px;
+}
+.more{
+    color:#063CC9;
+    padding-top: 10px;
 }
