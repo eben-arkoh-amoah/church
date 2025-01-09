@@ -101,7 +101,7 @@ main{
     justify-content: center;
     flex-direction: column;
     gap: 30px;
-    background: rgba(174, 201, 220, 0.4);
+    background: rgba(174, 201, 220, 0.5);
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
