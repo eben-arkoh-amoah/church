@@ -1,0 +1,93 @@
+*,*::before, *::after, a{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #090A0B;
+}
+.container{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    height: inherit;
+}
+header{
+    display: flex;
+flex-direction: column;
+    background: #AEC9DC;
+    width: 100%;
+    border-radius: 5px;
+}
+.title{
+   color: white;
+   font-weight: 900;
+   font-size: 11px;
+   width: 100%;
+    display: flex;
+    padding: 10px;
+   justify-content: center;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #090A0B;
+    align-items: center;
+}
+.logo>img{
+    width: 20px;
+    padding: 4px;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    width: 100%;
+    gap: 10px;
+    list-style: none;
+}
+.list-item>a{
+    color: #AEC9DC;
+    font-weight: bold;
+}
+.button-container{
+    width: 25%;
+    background: #AEC9DC;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.button-container>button{
+    width: 80%;
+    background: #063CC9;
+    color: #AEC9DC;
+    font-weight: 800;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.hero{
+    height: 100vh;
+    background-image: url("../../assets/home/congregation.jpeg");
+}
