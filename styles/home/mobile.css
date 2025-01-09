@@ -139,4 +139,28 @@ h2{
     font-size: 14px;
     line-height: 20px;
 }
-
+.main_section{
+    background: linear-gradient(#AEC9DC, #5D6C76);
+    height: 550px;
+        width: 100%
+}
+.main_container{
+    background-image: url("../../assets/home/church2.jpeg");
+    height: 550px;
+    width: 100%;
+    opacity: 0.6;
+    padding-top: 20px;
+}
+.worship{
+    padding-top: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+h3{
+    color: #fff;
+    font-size: 18px;
+}
+.clock{
+    width: 10%;
+}
