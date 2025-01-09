@@ -3,6 +3,7 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+    border: none;
 }
 
 body{
@@ -11,7 +12,7 @@ body{
     background-color: #090A0B;
 }
 .container{
-    width: 99%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,4 +91,33 @@ main{
 .hero{
     height: 100vh;
     background-image: url("../../assets/home/congregation.jpeg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.message{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(174, 201, 220, 0.4);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.message>p{
+    text-align: center;
+}
+.message>button{
+    background-color: #063CC9;
+    color: #AEC9DC;
+    padding: 5px 7px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
