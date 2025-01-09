@@ -183,4 +183,22 @@ h3{
 .more{
     color:#063CC9;
     padding-top: 10px;
+    cursor: pointer;
+}
+.location, .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.location{
+    margin-top: 35px;
+    gap: 10px;
+}
+
+.map{
+ width: 95%;
+ height: 250px;
+ cursor: pointer;
 }
