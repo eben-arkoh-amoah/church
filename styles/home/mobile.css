@@ -94,7 +94,27 @@ main{
     align-items: center;
     justify-content: center;
 }
-.message{
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.message {
     width: 80%;
     height: 35%;
     display: flex;
@@ -106,6 +126,11 @@ main{
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.hidden {
+    animation: fadeOut 1s ease-in-out forwards;
 }
 h1{
     text-align: center;

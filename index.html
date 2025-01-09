@@ -34,7 +34,7 @@
       <section class="hero">
         <div class="message">
           <h1>
-            "WHO IS JESUS AND WHY DO I NEED HIM IN MY LIFE..
+            " WHO IS JESUS AND WHY DO YOU NEED HIM IN MY LIFE..
           </h1>
           <button>know Jesus</button>
         </div>
@@ -93,5 +93,30 @@
       </section>
     </main>
   </div>
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const messages = [
+      "WHO IS JESUS AND WHY DO I NEED HIM IN MY LIFE..",
+      "JESUS IS THE WAY, THE TRUTH, AND THE LIFE.",
+      "FIND PEACE AND SALVATION IN JESUS CHRIST."
+    ];
+    const messageElement = document.querySelector(".message h1");
+
+    let currentMessageIndex = 0;
+
+    const changeMessage = () => {
+      const messageDiv = document.querySelector(".message");
+      messageDiv.classList.add("hidden"); // Trigger fade-out animation
+
+      setTimeout(() => {
+        currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+        messageElement.textContent = messages[currentMessageIndex];
+        messageDiv.classList.remove("hidden"); // Trigger fade-in animation
+      }, 3000); // Match the duration of the fade-out animation
+    };
+
+    setInterval(changeMessage, 9000); // Change message every 30 seconds
+  });
+</script>
 </body>
 </html>  
