@@ -101,9 +101,6 @@ main{
     top: 450px;
     left: 5px;
 }
-audio{
-    background: transparent;
-}
 @keyframes fadeIn {
     0% {
         opacity: 0;
