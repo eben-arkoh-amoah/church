@@ -94,14 +94,11 @@ main{
     display: flex;
     flex-direction: column;
         align-items: center;
-    justify-content: center;
-    position: relative;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    gap: 90px;
 }
-.audio{
-    position: absolute;
-    top: 470px;
-    left: 5px;
-}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -153,8 +150,6 @@ h1{
     font-size: 14px;
     font-weight: 600;
 }
-
-
 .mission{
     width: 95%;
     padding: 15px;
@@ -182,7 +177,7 @@ h2{
     background-image: url("../../assets/home/church2.jpeg");
 }
 .opaque{
-background-color: rgba(174, 201, 220, 0.5);
+    background-color: rgba(174, 201, 220, 0.5);
     width: 100%;
     padding-top: 20px;
 }
