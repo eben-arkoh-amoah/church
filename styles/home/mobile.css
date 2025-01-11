@@ -208,14 +208,7 @@ h3{
     color:#090A0B;
     font-size: 13px;
 }
-.more{
-    color:#063CC9;
-    padding-top: 10px;
-    cursor: pointer;
-    width: 120px;
-    margin: auto;
-    font-size: 13px;
-}
+
 .location, .content{
     display: flex;
     flex-direction: column;
@@ -274,7 +267,7 @@ h5{
 }
 
 /* State of interactive elements */
-a:hover, .more:hover{
+a:hover{
     color: #AEC9DC;
     border-bottom: 2px solid #063CC9;
 }
