@@ -212,8 +212,9 @@ h3{
     color:#063CC9;
     padding-top: 10px;
     cursor: pointer;
-    width: 130px;
+    width: 120px;
     margin: auto;
+    font-size: 13px;
 }
 .location, .content{
     display: flex;
