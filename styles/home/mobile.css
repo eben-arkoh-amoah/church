@@ -289,8 +289,8 @@ button:hover{
     color: #063CC9;
     cursor: pointer;
     border: 1px solid #063CC9;
-    
 }
+
 button{
     transition: all 1s ease-out;
 }
